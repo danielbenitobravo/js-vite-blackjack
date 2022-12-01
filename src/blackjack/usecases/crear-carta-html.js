@@ -8,7 +8,8 @@ export const crearCartaHtml = (carta) => {
         throw new Error('La carta es obligatoria');
     }
     const imgCarta = document.createElement('img');
-    imgCarta.src = `assets/cartas/${carta}.png`;
+    // src\blackjack\assets\cartas\2C.png
+    imgCarta.src = `src/blackjack/assets/cartas/${carta}.png`;
     imgCarta.classList.add('carta');
     return imgCarta;
 }
