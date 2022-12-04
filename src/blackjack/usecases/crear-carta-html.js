@@ -9,7 +9,7 @@ export const crearCartaHtml = (carta) => {
     }
     const imgCarta = document.createElement('img');
     // src\blackjack\assets\cartas\2C.png
-    imgCarta.src = `src/blackjack/assets/cartas/${carta}.png`;
+    imgCarta.src = `assets/cartas/${carta}.png`;
     imgCarta.classList.add('carta');
     return imgCarta;
 }
