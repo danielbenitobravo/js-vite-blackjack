@@ -1,13 +1,13 @@
 # Blackjack Vite
 
-Pasos para ejecutar proyecto:
+Step to execute:
 
-1. Clonar repositorio
-2. Ejecutar ```npm install``` para recontruir los modulos de node
-3. Correr el devServer ```npm run dev```
-4. Abrir el proyecto en: ```http://localhost:5173/```
+1. Clone repo
+2. Execute ```npm install``` to rebuld node modules
+3. Launch dev server ```npm run dev```
+4. Open project in: ```http://localhost:5173/```
 
 ## Produccion
 
-1. Ejecutar ```npm run build```
-2. Toamr la carpeta ```dist``` y desplegarla
+1. Execute ```npm run build```
+2. Take folder ```dist``` and deploy
